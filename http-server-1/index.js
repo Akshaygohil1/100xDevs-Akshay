@@ -1,6 +1,11 @@
 // go to terminal do npm init -y 
 // npm install express
 // type node index.js
+// install body-parser to pasrse body and get the body express by default ignores bodty from bytes 
+// npx nodemon to automatically restart server everytime you save npx nodemon index.js
+
+// import body parse 
+// use this line - app.use(bodyParse.json());
 const express = require('express')
 const app = express()
 const port = 3000
